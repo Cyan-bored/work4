@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lbw 的前端作品集</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-badge" aria-hidden="true"></div>
+            <h1 class="hero-title">
+                lbw的 <span class="accent">前端作品集</span>
+            </h1>
+            <p class="hero-desc">
+                这里展示了我构建的多个前端小项目。点击任意卡片即可跳转预览，感受从想法到页面的完整过程。
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="works" class="works-section">
+            <div class="projects-grid">
+                <article class="project-card" data-url="https://web3-pi-weld.vercel.app/">
+                    <div class="project-image-wrap">
+                        <img src="./img/quiztime.png" alt="Quiz Time 项目截图">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Quiz</span>
+                        <h3 class="project-title">Quiz Time</h3>
+                        <p class="project-desc">一个轻量有趣的在线答题应用，支持即时反馈与得分统计。</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-url="https://web1-dun-iota.vercel.app/">
+                    <div class="project-image-wrap">
+                        <img src="./img/register.png" alt="Register Form 项目截图">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Register</span>
+                        <h3 class="project-title">Register Form</h3>
+                        <p class="project-desc">现代化注册表单，包含输入校验、状态提示与优雅动效。</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-url="https://web2-two-sandy.vercel.app/">
+                    <div class="project-image-wrap">
+                        <img src="./img/recipe.png" alt="Recipe Finder 项目截图">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Recipe</span>
+                        <h3 class="project-title">Recipe Finder</h3>
+                        <p class="project-desc">基于搜索的菜谱查找器，帮助你快速发现灵感与烹饪步骤。</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
